@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #100f0f;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: rgb(238, 232, 232);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(23, 21, 21, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    display: block;
+    width: 30%;
+    padding: 7px;
+    background-color: #111213;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .delete {
+    color: rgb(227, 25, 25);
+    cursor: pointer;
+  }
+  
+  .edit {
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 2px 6px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+  }
+  
+  .edit-input {
+    display: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .edit-button {
+    display: inline;
+    background-color: #080909;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
